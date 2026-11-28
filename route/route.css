@@ -1,0 +1,197 @@
+/* 学习路线（首页样板、水平入口、周计划、信息架构图）。颜色只用 app.css 的变量；与单词学习页一样在本页作用域里改写两处：
+   --on-acc（压在强调色上的字）与 --acc2（全站的 #b06a1a 在米色底上 4.09:1，过不了 AA）。判据 tests/test_route.py（借 bin/a11y_check.py 的量法）。 */
+.rt{--on-acc:#fff;--acc2:#96560f;--mut:#595e65;--tap:44px;--soft:color-mix(in srgb,var(--acc) 9%,var(--card))}
+@media (prefers-color-scheme:dark){.rt{--on-acc:#0b1f1c;--acc2:#e6ad63;--mut:#a9afb5}}
+/* 中文小字的下限：全站 .zh 是 .8–.86em，嵌在小字容器里会掉到 12px 以下 */
+body[data-lang] .rt span.zh{font-size:max(.86em,12.5px)}
+.rt-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.rt h1{margin:.4em 0 .3em;line-height:1.25}
+.rt h2{font-size:1.25em}.rt h3{margin:.2em 0}.rt h4{margin:.8em 0 .3em;font-size:1em}
+.rt a{display:inline-flex;align-items:center;min-height:var(--tap);min-width:var(--tap)}
+.rt p{margin:.5em 0}
+.rt :focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+.rt-lead,.rt-p,.rt-prompt{font-size:1em}
+.rt-lv{font-size:.8em;color:var(--mut);font-weight:400;white-space:nowrap}
+.rt-k{display:inline-block;font-size:max(.8em,12.5px);background:var(--chip);border-radius:6px;padding:.1em .5em;color:var(--fg)}
+.rt-thin{background:var(--hl);border-radius:8px;padding:.5em .8em;font-size:.92em;color:var(--fg)}.rt-thin .zh{color:var(--fg)}
+/* 提示块：不只靠黄底，文字以「注意：」开头、role=note；左边框给形状上的区分。色值同 --hl 底上的 --fg（深浅两套都由 tests/test_route.py 逐字量对比度） */
+.rt-note{background:var(--hl);border-left:4px solid var(--acc2);border-radius:8px;padding:.5em .8em;color:var(--fg)}.rt-note .zh{color:var(--fg)}.rt-note b{font-weight:700}
+/* 界面话在对照模式只出中文（同单词学习 v2 的规则；讲解段落仍中英并排） */
+body[data-lang=both] :is(.rt-one,.rt-btn,.rt-tn,.rt-prog,.rt-oc,.rt-tm,.rt-k,.rt-df,.rt-time-note,.rt-here,.rt-qn,.rt-dd,.rt-dv,.rt-nums,.rt-rec,.rt-mark)>.enx,body[data-lang=both] .rt .crumb .enx{display:none}
+body[data-lang=both] :is(.rt-one,.rt-btn,.rt-tn,.rt-prog,.rt-oc,.rt-tm,.rt-k,.rt-df,.rt-time-note,.rt-here,.rt-dd,.rt-dv,.rt-nums,.rt-rec)>.zh,body[data-lang=both] .rt .crumb .zh{display:inline!important;margin:0!important;font-size:1em!important;color:inherit}
+:is(.rt-one,.rt-btn,.rt-oc)>.zh{color:inherit}
+/* 按钮 */
+.rt-btn,.rt select{display:inline-flex;align-items:center;justify-content:center;gap:.3em;min-height:var(--tap);padding:.45em 1em;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--fg);text-decoration:none;font-size:1em;cursor:pointer;text-align:center}
+.rt-btn:hover{border-color:var(--acc)}
+.rt-btn.primary,.rt a.rt-btn.primary{background:var(--acc);border-color:var(--acc);color:var(--on-acc);font-weight:600}
+.rt-btn .zh{color:inherit}
+.rt-cta{display:flex;flex-wrap:wrap;gap:8px;margin:.8em 0}
+/* 今天卡 */
+.rt-today{background:var(--soft);border:1px solid var(--line);border-radius:14px;padding:12px 16px;margin:8px 0 4px}
+.rt-today h2{border:0;margin:0;padding:0;font-size:1.1em}
+.rt-where{margin:.3em 0}
+/* 任务行（首页今天卡、周计划共用） */
+.rt-tasks{list-style:none;margin:6px 0;padding:0;display:grid;gap:6px}
+.rt-task{display:flex;align-items:stretch;gap:12px}
+.rt-task[hidden]{display:none}
+.rt-chk{flex:none;align-self:center;display:flex;align-items:center;justify-content:center;width:var(--tap);min-height:var(--tap);border:1px solid var(--line);border-radius:10px;background:var(--card);cursor:pointer}
+.rt-chk input{width:22px;height:22px;accent-color:var(--acc);margin:0}
+.rt a.rt-tl{flex:1;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:1px;min-width:0;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg);text-decoration:none}
+.rt a.rt-tl:hover{border-color:var(--acc)}
+.rt-tt{font-weight:600;overflow-wrap:anywhere}.rt-tt .zh{font-weight:400}
+.rt-tn{font-size:.88em;color:var(--mut)}
+.rt-tm{font-size:.8em;color:var(--mut)}
+.rt-corem{color:var(--acc2);font-weight:600}
+.rt-task.done .rt-tl{background:color-mix(in srgb,var(--ok) 10%,var(--card));border-color:var(--ok)}
+.rt-task.done .rt-tt{text-decoration:line-through;text-decoration-thickness:1px}
+/* 三站 */
+.rt-route{list-style:none;margin:10px 0;padding:0;display:grid;gap:12px}
+.rt-st{border:1px solid var(--line);border-left:5px solid var(--line);border-radius:12px;background:var(--card);padding:10px 14px}
+.rt-st.on{border-left-color:var(--acc);background:var(--soft)}
+.rt-st-h{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.rt-st-n{flex:none;width:32px;height:32px;border-radius:50%;background:var(--acc);color:var(--on-acc);display:flex;align-items:center;justify-content:center;font-weight:700}
+.rt-here{font-size:.85em;font-weight:600;color:var(--acc2)}
+.rt-have{font-size:.92em}
+.rt-books{margin:.3em 0;padding-left:1.1em}.rt-books li{margin:.25em 0}
+.rt-hrs{font-size:.8em;color:var(--mut)}
+.rt-go{margin:.5em 0 .2em}
+.rt-d{border:1px solid var(--line);border-radius:10px;padding:0 12px;margin:8px 0;background:var(--card)}
+.rt-d>summary{min-height:var(--tap);display:flex;align-items:center;gap:.4em;cursor:pointer;font-weight:600}
+.rt-d>summary::before{content:"▸";color:var(--mut)}.rt-d[open]>summary::before{content:"▾"}
+.rt-d>summary::-webkit-details-marker{display:none}
+/* 一周的形状 */
+.rt-days{list-style:none;margin:8px 0;padding:0;display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
+.rt-days li{border:1px solid var(--line);border-radius:10px;background:var(--card);padding:6px 4px;text-align:center;display:flex;flex-direction:column;gap:2px;min-width:0}
+.rt-days b{font-size:.8em;color:var(--mut);font-weight:400}.rt-days b .zh{font-size:1em!important;margin:0!important;display:block}
+@media(max-width:600px){.rt-days{grid-template-columns:repeat(4,1fr)}}
+/* 模块、证据 */
+.rt-mods{list-style:none;margin:8px 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:10px}
+.rt-mod{border:1px solid var(--line);border-radius:12px;background:var(--card);padding:10px 14px}
+.rt-links{display:flex;flex-wrap:wrap;gap:4px 14px;margin:0}
+.rt-ev{list-style:none;margin:8px 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px}
+.rt-ev li{border:1px solid var(--line);border-radius:12px;background:var(--card);padding:10px 14px;display:flex;flex-direction:column;gap:2px}
+.rt-evn{font-size:1.6em;font-weight:700;color:var(--acc)}
+.rt-ev li>.rt-one{font-size:.88em;color:var(--mut)}
+.rt-priv{border:1px dashed var(--acc2);border-radius:12px;padding:4px 14px 10px;margin:18px 0}
+.rt-priv h2{border:0}
+/* 水平入口 */
+.rt-steps{list-style:none;margin:10px 0;padding:0;display:flex;gap:6px;flex-wrap:wrap}
+.rt-steps li{border:1px solid var(--line);border-radius:20px;padding:.2em .8em;font-size:.9em;color:var(--mut);background:var(--card)}
+.rt-steps li[aria-current]{background:var(--acc);border-color:var(--acc);color:var(--on-acc);font-weight:600}.rt-steps li.past{color:var(--fg)}
+.rt-steps li .zh{color:inherit}
+.rt-q{border:1px solid var(--line);border-radius:14px;background:var(--card);padding:6px 16px 12px;margin:8px 0}
+.rt-q h2{border:0;margin:.4em 0;padding:0;font-size:1.05em;display:flex;justify-content:space-between;gap:8px}
+.rt-qn{color:var(--mut);font-weight:400}
+.rt-sent{font-size:1.15em;line-height:1.5;background:var(--chip);border-radius:10px;padding:.6em .8em}
+.rt-sent b{color:var(--acc);text-decoration:underline;text-underline-offset:3px}
+.rt-gap{letter-spacing:.05em;color:var(--acc);font-weight:700}
+.rt-ask{font-weight:600}
+.rt-opts{margin:6px 0;padding:0;display:grid;gap:6px}
+.rt-of{border:0;margin:0;padding:0;min-width:0}.rt-of legend{padding:0;margin:.4em 0}
+.rt-opt{width:100%;display:flex;align-items:center;gap:10px;text-align:left;min-height:48px;padding:6px 12px;border-radius:12px;border:1px solid var(--line);background:var(--bg);font-size:1em;cursor:pointer;box-sizing:border-box}
+.rt-opt input,.rt-lo input{flex:none;width:20px;height:20px;margin:0;accent-color:var(--acc)}
+.rt-opt:has(input:focus-visible),.rt-lo:has(input:focus-visible){outline:2px solid var(--acc);outline-offset:2px}
+.rt-opt:has(input:disabled){cursor:default}
+.rt-on{flex:none;width:26px;height:26px;border-radius:50%;border:1px solid var(--line);display:flex;align-items:center;justify-content:center;font-size:.85em;color:var(--mut)}
+@media(hover:none){.rt-on{display:none}}
+.rt-ol{display:block}.rt-oc{font-weight:600}.rt-op{font-weight:400;color:var(--mut);font-size:.85em}.rt-mark{font-weight:700}
+.rt-od{font-size:1em;color:var(--fg)}.rt-od .zh{font-size:.9em!important;margin:0 0 0 .3em!important;color:var(--mut)}
+/* 对错：边框线型（实线／虚线）＋看得见、读得出的文字（「✓ 正确答案」「✗ 你选的」），不只靠颜色 */
+.rt-opt.right,.rt-lo.right{border:2px solid var(--ok);background:color-mix(in srgb,var(--ok) 12%,var(--card))}
+.rt-opt.wrong,.rt-lo.wrong{border:2px dashed var(--bad)}
+.rt-skipline{justify-content:flex-end;margin:.2em 0}
+.rt-res{font-weight:600}.rt-res.ok{color:var(--ok)}.rt-res.no{color:var(--bad)}
+.rt p.rt-zh{display:block;font-size:1em;color:var(--fg)}.rt-why{color:var(--fg)}
+.rt-rec{font-size:1.2em;font-weight:700;background:var(--soft);border-radius:10px;padding:.5em .8em}
+.rt-dims{list-style:none;margin:10px 0;padding:0;display:grid;gap:8px}
+.rt-dims li{display:flex;gap:10px;border:1px solid var(--line);border-radius:10px;padding:8px 12px;background:var(--bg)}
+.rt-di{font-size:1.3em}.rt-dd{display:block;font-size:.9em;color:var(--mut)}.rt-dv{font-weight:600}
+/* 分段单选（真 radio 藏起来但仍可聚焦，方向键切换是浏览器自带的） */
+.rt-time{border:0;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.rt-time legend{float:left;margin-right:8px;font-size:.9em;color:var(--mut);min-height:var(--tap);display:flex;align-items:center}
+.rt-seg{position:relative;display:inline-flex}
+.rt-seg input{position:absolute;inset:0;opacity:0;margin:0;cursor:pointer}
+.rt-seg>span{display:inline-flex;align-items:center;min-height:var(--tap);padding:0 .9em;border:1px solid var(--line);border-radius:22px;background:var(--card);font-size:.95em}
+.rt-seg:has(input:checked)>span{background:var(--acc);border-color:var(--acc);color:var(--on-acc);font-weight:600}
+.rt-seg:has(input:checked)>span::before{content:"✓ "}
+.rt-seg:has(input:focus-visible)>span{outline:2px solid var(--acc);outline-offset:2px}
+/* 周计划 */
+.rt-bar{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;justify-content:space-between;margin:8px 0 0}
+.rt-prog{margin:0;font-weight:600}
+.rt-week{list-style:none;margin:8px 0;padding:0;display:grid;gap:10px}
+@media(min-width:900px){.rt-week{grid-template-columns:1fr 1fr}}
+.rt-day{border:1px solid var(--line);border-radius:12px;padding:8px 10px;background:var(--bg)}
+.rt-day h3{display:flex;align-items:baseline;gap:8px;font-size:1em}
+.rt-df{color:var(--acc2);font-weight:600}.rt-dm{margin-left:auto;font-size:.8em;color:var(--mut);font-weight:400}
+.rt-write{border:1px solid var(--line);border-radius:14px;background:var(--card);padding:0 16px 12px;margin:18px 0}
+.rt-write h2{border:0}
+.rt-prompt{background:var(--chip);border-radius:10px;padding:.6em .8em}
+.rt-tg{list-style:none;margin:8px 0;padding:0;display:grid;gap:4px}
+.rt-wl{display:block;font-weight:600;margin-top:.6em}
+.rt textarea{width:100%;min-height:9em;font-size:1em;line-height:1.6;padding:.6em .8em}
+.rt-report{margin:10px 0}.rt-report:focus{outline:none}
+.rt-nums{font-size:.92em;color:var(--mut)}
+.rt-nextfix{border:2px solid var(--acc);border-radius:12px;padding:4px 14px 8px;background:var(--soft)}
+.rt-good,.rt-fix{margin:.3em 0;padding-left:1.2em}.rt-good li,.rt-fix li{margin:.35em 0}
+.rt-models{display:grid;gap:10px;margin:8px 0}@media(min-width:900px){.rt-models{grid-template-columns:repeat(3,1fr)}}
+.rt-model{border:1px solid var(--line);border-radius:10px;padding:6px 12px;background:var(--bg)}
+.rt-model h4{margin:.3em 0;color:var(--acc2)}
+.rt-pre{white-space:pre-wrap;font:inherit;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.rt-tw{overflow-x:auto}
+.rt-table{border-collapse:collapse;width:100%;min-width:520px;font-size:.92em}
+.rt-table th,.rt-table td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+.rt-table thead th{background:var(--chip)}
+.rt-next{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:18px 0}
+.rt-next select{max-width:100%}
+/* 信息架构图：四层，层内横排，手机上竖排 */
+.rt-layer{border:1px solid var(--line);border-radius:14px;background:var(--card);padding:0 14px 12px}
+.rt-layer h2{border:0;margin:.6em 0 .2em;font-size:1.1em}
+.rt-flow{list-style:none;margin:8px 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px}
+.rt-box{position:relative;border:1px solid var(--line);border-radius:10px;background:var(--bg);padding:6px 10px;display:flex;flex-direction:column}
+.rt-box b .zh{font-weight:400}
+.rt-bs{font-size:.88em;color:var(--mut)}.rt-bs .zh{display:block!important;font-size:1em!important;margin:0!important}
+.rt-ladder .rt-box:not(:last-child)::after{content:"→";position:absolute;right:-9px;top:50%;transform:translateY(-50%);color:var(--acc2);font-weight:700;z-index:1}
+@media(max-width:700px){.rt-flow{grid-template-columns:1fr}.rt-ladder .rt-box:not(:last-child)::after{content:"↓";right:50%;top:auto;bottom:-14px;transform:none}}
+.rt-arrow{display:flex;justify-content:center;color:var(--acc2);margin:2px 0}
+.rt-src .rt-prv{border-style:dashed;border-color:var(--acc2)}
+@media (prefers-reduced-motion:no-preference){.rt-task .rt-tl,.rt-btn{transition:border-color .15s}}
+
+/* —— 评审修订 eh-site-arch-r1-1126 —— */
+/* 次级文字按钮：离站动作、跳过，视觉弱于主按钮，触控仍 ≥44px */
+.rt-btn.rt-txt{background:transparent;border-color:transparent;text-decoration:underline;text-underline-offset:3px;padding:.45em .5em}
+.rt-btn.rt-txt:hover{border-color:var(--line)}
+.rt-cta1{margin-bottom:.2em}.rt-cta2{margin-top:0}
+/* 借来的周：按本站的做法（只显示所选那一站的一行） */
+.rt-ad{display:none;font-size:.92em;color:var(--fg);margin-top:2px}.rt-ad.on,.rt[data-as=s1] .rt-ad[data-for=s1],.rt[data-as=s3] .rt-ad[data-for=s3]{display:block}
+.rt-as{margin:10px 0}
+/* 落后 N 天 */
+.rt-behind{border:2px solid var(--acc2);border-radius:12px;padding:4px 14px 6px;margin:10px 0;background:var(--card)}
+.rt-behind h2{border:0;margin:.4em 0 .1em;font-size:1.1em}
+.rt-day.today{border-color:var(--acc);border-width:2px}
+.rt-dtoday{font-size:.8em;font-weight:700;color:var(--acc2)}
+.rt-task.pick .rt-tl{outline:3px solid var(--acc2);outline-offset:2px}
+/* 周一：先在文章里见一面 */
+.rt-ctx{margin:6px 0 2px}.rt-ctxl{margin:4px 0;padding-left:1.1em}.rt-ctxl li{margin:.3em 0}.rt-ctxl b{color:var(--acc);font-weight:700}
+/* 周四：先听懂 */
+.rt-listen{border:1px solid var(--line);border-radius:14px;background:var(--card);padding:0 16px 12px;margin:18px 0}
+.rt-listen h2{border:0}.rt-listen h3{font-size:1em;margin:1em 0 .3em}
+.rt-lqs{display:grid;gap:10px}
+.rt-lq{border:1px solid var(--line);border-radius:10px;padding:4px 12px 8px;margin:0;background:var(--bg);min-width:0}
+.rt-lq legend{float:left;width:100%;font-weight:600;padding:6px 0 4px}.rt-lq legend+*{clear:both}
+.rt-lo{display:flex;align-items:center;gap:10px;min-height:44px;padding:4px 10px;margin:4px 0;border:1px solid var(--line);border-radius:10px;cursor:pointer;box-sizing:border-box}
+.rt-lfb{font-size:.95em;color:var(--fg)}
+#rt-lslow[aria-pressed=true]{background:var(--chip);border-color:var(--acc)}
+/* 留稿：每稿一张卡，两列并排对照（手机也两列），字段带名字，「打开」在卡上 */
+.rt-dcs{list-style:none;margin:8px 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
+.rt-dc{border:1px solid var(--line);border-radius:10px;background:var(--bg);padding:6px 10px 8px;display:flex;flex-direction:column;gap:4px}
+.rt-dc.latest{border-color:var(--acc)}
+.rt-dc h4{margin:.2em 0}.rt-dc dl{margin:0;display:grid;gap:2px}.rt-dc dl div{display:flex;justify-content:space-between;gap:6px}.rt-dc dt{color:var(--mut);font-size:.9em}.rt-dc dd{margin:0;font-weight:600}
+.rt-dc .rt-btn{margin-top:auto}
+/* 下拉＋去那一周（下拉不自动跳转） */
+.rt-pick{display:flex;flex-wrap:wrap;gap:8px;align-items:center;width:100%;min-width:0}.rt-pick select{flex:1 1 14em;min-width:0;max-width:100%;text-overflow:ellipsis}
+/* 首页 */
+.rt-ent{margin:.1em 0}.rt-box .rt-ent{align-self:flex-start;margin-top:4px}
+.rt-evd{font-size:.88em;color:var(--acc2);font-weight:600}.rt-ev0{font-size:.88em;color:var(--fg)}
+.rt-empty{border:1px dashed var(--line);border-radius:10px;padding:2px 12px;margin:8px 0}
+@media (prefers-reduced-motion:no-preference){.rt-st.flash{animation:rtflash 1.6s}@keyframes rtflash{0%,50%{box-shadow:0 0 0 3px var(--acc)}}}
+.rt-st.flash{outline:2px solid var(--acc);outline-offset:2px}

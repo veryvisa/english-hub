@@ -1,0 +1,4 @@
+/* 只在首页加载：介绍段版式；手机上学习地图一列（app.css 第 81 行把四列规则写在媒体查询之后，390 宽会横滚到 552，共用件合并修正后可删这一行） */
+#about .cells{display:grid;grid-template-columns:1fr 1fr;gap:14px}#about .tcard h3{margin:0 0 .3em}#about .tcard p{margin:.4em 0 0}#about .tcard:last-child{grid-column:1/-1}
+@media(max-width:900px){.grid5{grid-template-columns:1fr 1fr}}
+@media(max-width:640px){#about .cells,.grid5{grid-template-columns:minmax(0,1fr)}}

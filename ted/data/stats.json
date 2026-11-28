@@ -1,0 +1,158 @@
+{
+ "cutts-30-days": {
+  "quiz": 12,
+  "chunks": 8,
+  "notes": 6,
+  "shadow": 6,
+  "speak": [
+   2,
+   1,
+   5
+  ],
+  "watch": 4,
+  "level": "B1",
+  "slug": "matt_cutts_try_something_new_for_30_days"
+ },
+ "duckworth-grit": {
+  "quiz": 12,
+  "chunks": 9,
+  "notes": 6,
+  "shadow": 6,
+  "speak": [
+   1,
+   7,
+   2
+  ],
+  "watch": 5,
+  "level": "B2",
+  "slug": "angela_lee_duckworth_grit_the_power_of_passion_and_perseverance"
+ },
+ "headlee-conversation": {
+  "quiz": 12,
+  "chunks": 9,
+  "notes": 5,
+  "shadow": 6,
+  "speak": [
+   1,
+   6,
+   7
+  ],
+  "watch": 6,
+  "level": "B2",
+  "slug": "celeste_headlee_10_ways_to_have_a_better_conversation"
+ },
+ "hill-less-stuff": {
+  "quiz": 12,
+  "chunks": 9,
+  "notes": 5,
+  "shadow": 6,
+  "speak": [
+   5,
+   1,
+   4,
+   8
+  ],
+  "watch": 5,
+  "level": "B2",
+  "slug": "graham_hill_less_stuff_more_happiness"
+ },
+ "mcgonigal-stress": {
+  "quiz": 12,
+  "chunks": 9,
+  "notes": 6,
+  "shadow": 6,
+  "speak": [
+   1,
+   2,
+   7
+  ],
+  "watch": 6,
+  "level": "B2",
+  "slug": "kelly_mcgonigal_how_to_make_stress_your_friend"
+ },
+ "schwartz-choice": {
+  "quiz": 12,
+  "chunks": 9,
+  "notes": 6,
+  "shadow": 6,
+  "speak": [
+   5,
+   7,
+   6
+  ],
+  "watch": 7,
+  "level": "C1",
+  "slug": "barry_schwartz_the_paradox_of_choice"
+ },
+ "suzuki-exercise": {
+  "quiz": 12,
+  "chunks": 9,
+  "notes": 5,
+  "shadow": 6,
+  "speak": [
+   1,
+   5,
+   3
+  ],
+  "watch": 7,
+  "level": "B2",
+  "slug": "wendy_suzuki_the_brain_changing_benefits_of_exercise"
+ },
+ "treasure-speak": {
+  "quiz": 12,
+  "chunks": 9,
+  "notes": 5,
+  "shadow": 6,
+  "speak": [
+   1,
+   6,
+   3
+  ],
+  "watch": 5,
+  "level": "B2",
+  "slug": "julian_treasure_how_to_speak_so_that_people_want_to_listen"
+ },
+ "urban-procrastination": {
+  "quiz": 12,
+  "chunks": 9,
+  "notes": 5,
+  "shadow": 6,
+  "speak": [
+   1,
+   2,
+   4
+  ],
+  "watch": 6,
+  "level": "B2",
+  "slug": "tim_urban_inside_the_mind_of_a_master_procrastinator"
+ },
+ "waldinger-good-life": {
+  "quiz": 12,
+  "chunks": 9,
+  "notes": 6,
+  "shadow": 6,
+  "speak": [
+   1,
+   5,
+   7
+  ],
+  "watch": 5,
+  "level": "B2",
+  "slug": "robert_waldinger_what_makes_a_good_life_lessons_from_the_longest_study_on_happiness"
+ },
+ "walker-sleep": {
+  "quiz": 12,
+  "chunks": 9,
+  "notes": 6,
+  "shadow": 6,
+  "speak": [
+   1,
+   4,
+   6,
+   7
+  ],
+  "watch": 9,
+  "level": "C1",
+  "slug": "matt_walker_sleep_is_your_superpower"
+ }
+}

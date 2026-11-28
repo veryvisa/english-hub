@@ -1,0 +1,26 @@
+/* 思培听说区（tools/celpip）样式：只作用于 /celpip/ 页面 */
+.two{display:grid;grid-template-columns:1fr 1fr;gap:18px}@media (max-width:760px){.two{grid-template-columns:1fr}}
+.cp-list{list-style:none;padding:0}.cp-list li{padding:6px 0;border-bottom:1px solid var(--line)}
+.cp-pack{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:8px 14px;margin:10px 0}.cp-pack h3{margin:.4em 0}
+.cp-chunks{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:6px 14px}.cp-chunks li{padding:4px 0;border-bottom:1px dashed var(--line)}
+.seen1{font-size:.85em}.seen1 mark,.cp-p mark{background:var(--hl)}
+.pnav{display:flex;flex-wrap:wrap;gap:6px}.pn-chip{min-width:2.4em}.pn-chip.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+.cp-p{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:6px 16px 14px;margin:12px 0}
+.cp-scene{font-size:1.6em;margin:.2em 0}.cp-plan{margin:8px 0}.cp-plan summary{cursor:pointer;color:var(--acc)}
+.cp-cols{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.cp-col{border:1px solid var(--line);border-radius:10px;padding:6px 12px;font-size:.95em}
+.cp-colh{display:flex;gap:8px;align-items:center;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:4px}
+.cp-tabs{display:none;gap:6px}
+@media (max-width:900px){.cp-cols:not(.all){grid-template-columns:1fr}.cp-tabs{display:flex}.cp-cols[data-show=l5]:not(.all) .cp-col:not([data-col=l5]),.cp-cols[data-show=a]:not(.all) .cp-col:not([data-col=a]),.cp-cols[data-show=l9]:not(.all) .cp-col:not([data-col=l9]){display:none}.cp-cols.all{grid-template-columns:1fr}}
+mark.up-new{background:color-mix(in srgb,var(--ok) 22%,transparent);border-radius:3px;cursor:pointer}
+mark.up-old{background:none;border-bottom:2px dashed var(--acc2);cursor:pointer}
+a.kp{color:inherit;text-decoration:underline;text-decoration-color:var(--acc);text-underline-offset:3px}
+.cp-used{font-size:.85em}.cp-ups{padding-left:1.1em}.cp-up{margin:6px 0;font-size:.93em}.cp-up.s9 .chip{background:color-mix(in srgb,var(--acc) 18%,var(--chip))}.cp-up.hit{background:var(--hl);border-radius:6px}
+.cp-up .chip,.cp-used .chip,.cp-pack .chip,.cp-chunks .chip,.cp-list .chip,.lqi .chip,.cp-p h3 .chip{display:inline-block;background:var(--chip);border-radius:14px;padding:.05em .6em;margin:2px;font-size:.85em;text-decoration:none}
+.cp-rate{border-top:1px dashed var(--line);margin-top:10px}.dim{margin-right:10px;white-space:nowrap}
+.lq{padding-left:1.4em}.lqi{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 12px;margin:8px 0}.lqi.ok{border-color:var(--ok)}.lqi.bad{border-color:var(--bad)}
+.lq-o{display:block;margin:3px 0;cursor:pointer}.lq-res{margin-top:6px;font-size:.93em}.lq-score{font-weight:600}
+.clip{border-top:1px dashed var(--line);margin-top:14px}.yt{background:var(--chip);border-radius:10px;padding:14px;margin:8px 0;display:flex;gap:12px;align-items:center;flex-wrap:wrap}.yt iframe{border:0;border-radius:8px}
+.cp-traps li{margin:8px 0}.cp-trap{border-top:1px solid var(--line)}.cp-trap h2{border:0;margin-top:1em}
+.cp-notes td{width:45%}.cp-model{color:var(--acc2)}.cp-steps li{margin:3px 0}
+.dc{padding-left:1.4em}.dc-i{margin:10px 0}.dc-in{width:min(560px,100%);margin:4px 0}.dc-res del{color:var(--bad);text-decoration:underline wavy}
+.cp-mockf label{margin-right:10px;white-space:nowrap}.cp-mockf input[type=number]{width:4.5em}

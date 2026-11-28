@@ -1,0 +1,230 @@
+# English Hub
+
+> Upper-intermediate to advanced English (B2 to C1) for Chinese-speaking adults: word chunks, grammar of choice, pronunciation, and groups of original articles on one topic. Every page reads in English, in Chinese, or in both.
+
+All explanations, examples, articles and exercises are original work by VeryVisa. Coursebooks are referred to by unit only.
+
+## Start here
+- [index.html](https://veryvisa.github.io/english-hub/): the map and today's forty-minute session
+- [books.html](https://veryvisa.github.io/english-hub/books.html): coursebook units matched to pages on this site
+- [pains.html](https://veryvisa.github.io/english-hub/pains.html): what is hard for Chinese speakers, and where to practise it
+- [words.html](https://veryvisa.github.io/english-hub/words.html): all words and chunks
+- [tools.html](https://veryvisa.github.io/english-hub/tools.html): practice tools
+
+## Grammar
+- [Verb and noun endings you cannot skip](https://veryvisa.github.io/english-hub/u/g-b1-third-person-plural.html): B1
+- [Countable and uncountable nouns](https://veryvisa.github.io/english-hub/u/g-b1-countable-uncountable.html): B1
+- [Past simple and past continuous in stories](https://veryvisa.github.io/english-hub/u/g-b1-past-narrative-basic.html): B1
+- [Comparing: as…as, far more, the more…the more](https://veryvisa.github.io/english-hub/u/g-b1-comparatives.html): B1
+- [Every clause needs a subject](https://veryvisa.github.io/english-hub/u/g-b1-subject-required.html): B1
+- [One linker per sentence: although, because, so](https://veryvisa.github.io/english-hub/u/g-b1-because-so.html): B1
+- [Verb + -ing or to: the common verbs](https://veryvisa.github.io/english-hub/u/g-b1-gerund-infinitive-basic.html): B1
+- [Articles: a, the or nothing](https://veryvisa.github.io/english-hub/u/g-b2-articles.html): B2
+- [Present perfect or past simple](https://veryvisa.github.io/english-hub/u/g-b2-perfect-vs-past.html): B2
+- [Unreal and mixed conditionals](https://veryvisa.github.io/english-hub/u/g-b2-unreal-conditionals.html): B2
+- [Present perfect simple or continuous](https://veryvisa.github.io/english-hub/u/g-b2-perfect-continuous.html): B2
+- [Narrative tenses and the past perfect](https://veryvisa.github.io/english-hub/u/g-b2-narrative-tenses.html): B2
+- [Future forms: will, going to, present tenses](https://veryvisa.github.io/english-hub/u/g-b2-future-forms.html): B2
+- [Future continuous and future perfect](https://veryvisa.github.io/english-hub/u/g-b2-future-perfect-continuous.html): B2
+- [used to, would, be used to, get used to](https://veryvisa.github.io/english-hub/u/g-b2-used-to-would.html): B2
+- [Modals of deduction: must, might, can't have](https://veryvisa.github.io/english-hub/u/g-b2-modals-deduction.html): B2
+- [Obligation and advice in the present and past](https://veryvisa.github.io/english-hub/u/g-b2-modals-obligation.html): B2
+- [wish, if only, it's time, would rather](https://veryvisa.github.io/english-hub/u/g-b2-wish-if-only.html): B2
+- [Real conditionals and time clauses](https://veryvisa.github.io/english-hub/u/g-b2-real-conditionals.html): B2
+- [The passive in all tenses](https://veryvisa.github.io/english-hub/u/g-b2-passive-all-forms.html): B2
+- [It is said that, he is said to](https://veryvisa.github.io/english-hub/u/g-b2-passive-reporting.html): B2
+- [have something done, get something done](https://veryvisa.github.io/english-hub/u/g-b2-have-something-done.html): B2
+- [-ing or to with a change of meaning](https://veryvisa.github.io/english-hub/u/g-b2-gerund-infinitive-meaning.html): B2
+- [Verb + object + infinitive](https://veryvisa.github.io/english-hub/u/g-b2-verb-patterns-object.html): B2
+- [Reported speech and reporting verbs](https://veryvisa.github.io/english-hub/u/g-b2-reported-speech.html): B2
+- [Defining and non-defining relative clauses](https://veryvisa.github.io/english-hub/u/g-b2-relative-clauses-defining.html): B2
+- [Relative clauses with prepositions and quantifiers](https://veryvisa.github.io/english-hub/u/g-b2-relative-clauses-prepositions.html): B2
+- [Quantifiers: all, most, each, every, either](https://veryvisa.github.io/english-hub/u/g-b2-quantifiers.html): B2
+- [Clauses of contrast and purpose](https://veryvisa.github.io/english-hub/u/g-b2-clauses-contrast-purpose.html): B2
+- [Adjective order and compound adjectives](https://veryvisa.github.io/english-hub/u/g-b2-adjective-order-compound.html): B2
+- [Where adverbs go](https://veryvisa.github.io/english-hub/u/g-b2-adverb-position.html): B2
+- [so, such, too, enough and result clauses](https://veryvisa.github.io/english-hub/u/g-b2-so-such-too-enough.html): B2
+- [Question tags, echo questions and short answers](https://veryvisa.github.io/english-hub/u/g-b2-question-tags-echo.html): B2
+- [Prepositions after verbs, and no preposition at all](https://veryvisa.github.io/english-hub/u/g-b2-prepositions-after-verbs.html): B2
+- [he, she, it, they: keeping reference straight](https://veryvisa.github.io/english-hub/u/g-b2-pronoun-reference.html): B2
+- [Inversion after negative adverbials](https://veryvisa.github.io/english-hub/u/g-c1-inversion.html): C1
+- [Had I known: conditionals without if](https://veryvisa.github.io/english-hub/u/g-c1-inverted-conditionals.html): C1
+- [Cleft sentences: It was…, What I need is…](https://veryvisa.github.io/english-hub/u/g-c1-cleft-sentences.html): C1
+- [Fronting and word order for focus](https://veryvisa.github.io/english-hub/u/g-c1-fronting.html): C1
+- [Participle clauses](https://veryvisa.github.io/english-hub/u/g-c1-participle-clauses.html): C1
+- [Reduced relative clauses](https://veryvisa.github.io/english-hub/u/g-c1-reduced-relatives.html): C1
+- [Nominalisation: from clause to noun phrase](https://veryvisa.github.io/english-hub/u/g-c1-nominalisation.html): C1
+- [Long noun phrases: reading and building them](https://veryvisa.github.io/english-hub/u/g-c1-complex-noun-phrases.html): C1
+- [The subjunctive: I suggest he go](https://veryvisa.github.io/english-hub/u/g-c1-subjunctive.html): C1
+- [should have, needn't have, could have](https://veryvisa.github.io/english-hub/u/g-c1-modals-past-criticism.html): C1
+- [Modal nuance: will for habit, would for distance](https://veryvisa.github.io/english-hub/u/g-c1-modal-nuance.html): C1
+- [Distancing: seem, appear, apparently, allegedly](https://veryvisa.github.io/english-hub/u/g-c1-distancing.html): C1
+- [Advanced passives: get, need doing, being done](https://veryvisa.github.io/english-hub/u/g-c1-passive-advanced.html): C1
+- [The future seen from the past](https://veryvisa.github.io/english-hub/u/g-c1-future-in-the-past.html): C1
+- [Perfect aspect across tenses](https://veryvisa.github.io/english-hub/u/g-c1-perfect-aspect.html): C1
+- [Ellipsis and substitution](https://veryvisa.github.io/english-hub/u/g-c1-ellipsis-substitution.html): C1
+- [Emphasis: do, own, very, whatsoever](https://veryvisa.github.io/english-hub/u/g-c1-emphasis-do-own-very.html): C1
+- [Concession: however much, much as, whatever](https://veryvisa.github.io/english-hub/u/g-c1-concession-advanced.html): C1
+- [Alternatives to if: provided, unless, supposing, but for](https://veryvisa.github.io/english-hub/u/g-c1-conditionals-alternatives.html): C1
+- [Cohesion: this, such, the former, doing so](https://veryvisa.github.io/english-hub/u/g-c1-linking-cohesion.html): C1
+- [what, whatever, whoever as noun clauses](https://veryvisa.github.io/english-hub/u/g-c1-relative-what-whatever.html): C1
+- [There is, there are: not there have](https://veryvisa.github.io/english-hub/u/g-b1-there-is.html): B1
+- [Subject–verb agreement with long and collective subjects](https://veryvisa.github.io/english-hub/u/g-b2-subject-verb-agreement.html): B2
+- [Gradable and extreme adjectives: very tired, absolutely exhausted](https://veryvisa.github.io/english-hub/u/g-b2-gradable-adjectives.html): B2
+- [Giving reasons: as, since, due to, with](https://veryvisa.github.io/english-hub/u/g-b2-cause-reason.html): B2
+- [Introductory it: It's worth…, I find it hard to…](https://veryvisa.github.io/english-hub/u/g-b2-introductory-it.html): B2
+- [Compound nouns and possessives: a car key, the car's owner](https://veryvisa.github.io/english-hub/u/g-b2-compound-possessive-nouns.html): B2
+- [Reflexive pronouns, each other and generic you](https://veryvisa.github.io/english-hub/u/g-b2-pronouns-reflexive-generic.html): B2
+- [have: main verb, auxiliary and fixed phrases](https://veryvisa.github.io/english-hub/u/g-c1-have-uses.html): C1
+- [get: become, passive, causative and phrasal](https://veryvisa.github.io/english-hub/u/g-c1-get-uses.html): C1
+- [be to, be about to, be due to: arranged futures](https://veryvisa.github.io/english-hub/u/g-c1-be-to-about-to.html): C1
+- [Reporting with nouns: the claim that, his refusal to](https://veryvisa.github.io/english-hub/u/g-c1-reporting-nouns.html): C1
+- [Adjective + to, -ing or that-clause](https://veryvisa.github.io/english-hub/u/g-c1-adjective-complements.html): C1
+- [Negative questions and questions with that-clauses](https://veryvisa.github.io/english-hub/u/g-c1-negative-questions.html): C1
+
+## Words and chunks
+- [Everyday verbs beyond get and go](https://veryvisa.github.io/english-hub/u/v-b1-everyday-verbs.html): B1
+- [Beyond very good: stronger adjectives](https://veryvisa.github.io/english-hub/u/v-b1-adjective-range.html): B1
+- [Prepositions of time and place that differ from Chinese](https://veryvisa.github.io/english-hub/u/v-b1-prepositions-time-place.html): B1
+- [Numbers, dates, prices and quantities](https://veryvisa.github.io/english-hub/u/v-b1-numbers-dates.html): B1
+- [Chinglish and false friends](https://veryvisa.github.io/english-hub/u/v-b1-false-friends.html): B1
+- [Linkers without doubling](https://veryvisa.github.io/english-hub/u/v-b1-linkers-basic.html): B1
+- [Collocations with make, do, take, have and give](https://veryvisa.github.io/english-hub/u/v-b2-collocations-core-verbs.html): B2
+- [Phrasal verbs for work](https://veryvisa.github.io/english-hub/u/v-b2-phrasal-verbs-work.html): B2
+- [Word families: one root, four parts of speech](https://veryvisa.github.io/english-hub/u/v-b2-word-formation.html): B2
+- [Adjective + noun collocations](https://veryvisa.github.io/english-hub/u/v-b2-adjective-noun-collocations.html): B2
+- [Adverb + adjective and adverb + verb collocations](https://veryvisa.github.io/english-hub/u/v-b2-adverb-collocations.html): B2
+- [Adjectives, nouns and verbs with fixed prepositions](https://veryvisa.github.io/english-hub/u/v-b2-dependent-prepositions.html): B2
+- [Phrasal verbs for daily life](https://veryvisa.github.io/english-hub/u/v-b2-phrasal-verbs-daily.html): B2
+- [Three-part phrasal verbs](https://veryvisa.github.io/english-hub/u/v-b2-phrasal-verbs-three-part.html): B2
+- [Near-synonyms: say, tell, speak, talk and others](https://veryvisa.github.io/english-hub/u/v-b2-near-synonyms.html): B2
+- [Hedging: saying it without overclaiming](https://veryvisa.github.io/english-hub/u/v-b2-hedging.html): B2
+- [Softening requests and refusals](https://veryvisa.github.io/english-hub/u/v-b2-softeners-requests.html): B2
+- [Spoken discourse markers](https://veryvisa.github.io/english-hub/u/v-b2-discourse-markers-spoken.html): B2
+- [Linkers of contrast, cause and result](https://veryvisa.github.io/english-hub/u/v-b2-linkers-contrast-result.html): B2
+- [Money, banking and credit](https://veryvisa.github.io/english-hub/u/v-b2-money-banking.html): B2
+- [Housing and renting](https://veryvisa.github.io/english-hub/u/v-b2-housing.html): B2
+- [Health, symptoms and appointments](https://veryvisa.github.io/english-hub/u/v-b2-health.html): B2
+- [Feelings in fine grain](https://veryvisa.github.io/english-hub/u/v-b2-feelings.html): B2
+- [Idioms people actually use](https://veryvisa.github.io/english-hub/u/v-b2-idioms-common.html): B2
+- [Prefixes and suffixes that unlock new words](https://veryvisa.github.io/english-hub/u/v-b2-prefixes-suffixes.html): B2
+- [Fixed pairs and sentence frames](https://veryvisa.github.io/english-hub/u/v-b2-binomials-fixed.html): B2
+- [Academic collocations](https://veryvisa.github.io/english-hub/u/v-c1-academic-collocations.html): C1
+- [Academic words: analyse, approach, assess](https://veryvisa.github.io/english-hub/u/v-c1-academic-word-list-1.html): C1
+- [Reporting verbs with attitude](https://veryvisa.github.io/english-hub/u/v-c1-reporting-verbs.html): C1
+- [Formal and informal pairs](https://veryvisa.github.io/english-hub/u/v-c1-formal-informal-pairs.html): C1
+- [Everyday metaphors: argument, time, money](https://veryvisa.github.io/english-hub/u/v-c1-metaphor-everyday.html): C1
+- [Nouns that carry arguments](https://veryvisa.github.io/english-hub/u/v-c1-nominalisation-words.html): C1
+- [Evaluating: strengths, flaws, trade-offs](https://veryvisa.github.io/english-hub/u/v-c1-evaluation-language.html): C1
+- [Collocations with abstract nouns](https://veryvisa.github.io/english-hub/u/v-c1-collocations-abstract.html): C1
+- [Idioms and register](https://veryvisa.github.io/english-hub/u/v-c1-idioms-register.html): C1
+- [Latin and Greek roots](https://veryvisa.github.io/english-hub/u/v-c1-latin-greek-roots.html): C1
+- [Written discourse markers](https://veryvisa.github.io/english-hub/u/v-c1-discourse-markers-written.html): C1
+- [Travel, flights and tourism](https://veryvisa.github.io/english-hub/u/v-b2-travel-tourism.html): B2
+- [The media and the news](https://veryvisa.github.io/english-hub/u/v-b2-media-news.html): B2
+- [Weather, climate, nature and the environment](https://veryvisa.github.io/english-hub/u/v-b2-weather-environment.html): B2
+- [Food, cooking and eating out](https://veryvisa.github.io/english-hub/u/v-b2-food-cooking.html): B2
+- [Books, films, music and art](https://veryvisa.github.io/english-hub/u/v-b2-arts-entertainment.html): B2
+- [Sport, exercise and fitness](https://veryvisa.github.io/english-hub/u/v-b2-sport-fitness.html): B2
+- [Towns, cities and the countryside](https://veryvisa.github.io/english-hub/u/v-b2-towns-places.html): B2
+- [Science and discovery](https://veryvisa.github.io/english-hub/u/v-b2-science.html): B2
+- [Business, marketing and advertising](https://veryvisa.github.io/english-hub/u/v-b2-business-advertising.html): B2
+- [The senses and the body: how things look, sound and feel](https://veryvisa.github.io/english-hub/u/v-b2-senses-body.html): B2
+- [Time, distance, size, speed and quantity](https://veryvisa.github.io/english-hub/u/v-b2-time-space-quantity.html): B2
+- [Compound nouns and compound adjectives](https://veryvisa.github.io/english-hub/u/v-b2-compound-words.html): B2
+- [Headlines, abbreviations, signs and notices](https://veryvisa.github.io/english-hub/u/v-c1-headlines-notices.html): C1
+- [The economy and personal finance](https://veryvisa.github.io/english-hub/u/v-c1-economy-finance.html): C1
+- [Agreeing, disagreeing, complaining and apologising](https://veryvisa.github.io/english-hub/u/v-c1-agreeing-persuading.html): C1
+
+## Pronunciation
+- [Vowel pairs that change the word](https://veryvisa.github.io/english-hub/u/p-b1-vowel-pairs.html): B1
+- [The two th sounds](https://veryvisa.github.io/english-hub/u/p-b1-th-sounds.html): B1
+- [/v/ and /w/](https://veryvisa.github.io/english-hub/u/p-b1-v-w.html): B1
+- [/l/, /n/ and /r/, and the dark l](https://veryvisa.github.io/english-hub/u/p-b1-l-n-r.html): B1
+- [Final consonants without an extra vowel](https://veryvisa.github.io/english-hub/u/p-b1-final-consonants.html): B1
+- [-ed and -s endings: three sounds each](https://veryvisa.github.io/english-hub/u/p-b1-ed-s-endings.html): B1
+- [Consonant clusters](https://veryvisa.github.io/english-hub/u/p-b1-consonant-clusters.html): B1
+- [Diphthongs that glide all the way](https://veryvisa.github.io/english-hub/u/p-b1-diphthongs.html): B1
+- [Weak forms and the schwa](https://veryvisa.github.io/english-hub/u/p-b2-weak-forms.html): B2
+- [Linking words together](https://veryvisa.github.io/english-hub/u/p-b2-linking.html): B2
+- [Word stress in long words](https://veryvisa.github.io/english-hub/u/p-b2-word-stress.html): B2
+- [Stress that moves in word families](https://veryvisa.github.io/english-hub/u/p-b2-stress-shift.html): B2
+- [Sentence stress and rhythm](https://veryvisa.github.io/english-hub/u/p-b2-sentence-stress.html): B2
+- [Stress that corrects and contrasts](https://veryvisa.github.io/english-hub/u/p-b2-contrastive-stress.html): B2
+- [Intonation in questions and lists](https://veryvisa.github.io/english-hub/u/p-b2-intonation-questions.html): B2
+- [Sounds that change and disappear in fast speech](https://veryvisa.github.io/english-hub/u/p-b2-assimilation.html): B2
+- [Hearing and saying contractions](https://veryvisa.github.io/english-hub/u/p-b2-contractions.html): B2
+- [can and can't, numbers like 13 and 30](https://veryvisa.github.io/english-hub/u/p-b2-can-cant.html): B2
+- [Stress in compounds and phrasal verbs](https://veryvisa.github.io/english-hub/u/p-b2-compound-stress.html): B2
+- [Pausing in thought groups](https://veryvisa.github.io/english-hub/u/p-b2-thought-groups.html): B2
+- [Intonation that shows attitude](https://veryvisa.github.io/english-hub/u/p-c1-intonation-attitude.html): C1
+- [Sounding polite: pitch range](https://veryvisa.github.io/english-hub/u/p-c1-politeness-pitch.html): C1
+- [Decoding fast natural speech](https://veryvisa.github.io/english-hub/u/p-c1-fast-speech-listening.html): C1
+- [British, American and Canadian differences](https://veryvisa.github.io/english-hub/u/p-c1-accents.html): C1
+- [Delivery for talks and meetings](https://veryvisa.github.io/english-hub/u/p-c1-presentation-delivery.html): C1
+- [Emphasis with stress and word order together](https://veryvisa.github.io/english-hub/u/p-c1-emphasis-fronting.html): C1
+
+## Topics (groups of articles)
+- [Talking at work](https://veryvisa.github.io/english-hub/t/t-work-talk.html): B2, 5 articles
+- [Finding a home](https://veryvisa.github.io/english-hub/t/t-new-home.html): B2, 8 articles
+- [Job hunting and interviews](https://veryvisa.github.io/english-hub/t/t-job-hunting.html): B2, 5 articles
+- [Money, banking and credit](https://veryvisa.github.io/english-hub/t/t-money-banking.html): B2, 5 articles
+- [Forms, deadlines and official letters](https://veryvisa.github.io/english-hub/t/t-paperwork.html): B2, 5 articles
+- [Seeing a doctor](https://veryvisa.github.io/english-hub/t/t-healthcare.html): B2, 6 articles
+- [Schools and parents](https://veryvisa.github.io/english-hub/t/t-schools.html): B2, 5 articles
+- [Culture shock and belonging](https://veryvisa.github.io/english-hub/t/t-culture-shock.html): B2, 7 articles
+- [Neighbours and community](https://veryvisa.github.io/english-hub/t/t-community.html): B2, 8 articles
+- [Driving and getting around](https://veryvisa.github.io/english-hub/t/t-driving.html): B2, 5 articles
+- [Complaints and consumer rights](https://veryvisa.github.io/english-hub/t/t-consumer.html): B2, 5 articles
+- [Food, diet and health claims](https://veryvisa.github.io/english-hub/t/t-food-claims.html): B2, 5 articles
+- [Sleep, stress and mental health](https://veryvisa.github.io/english-hub/t/t-sleep-stress.html): B2, 5 articles
+- [Exercise and ageing well](https://veryvisa.github.io/english-hub/t/t-exercise-ageing.html): B2, 5 articles
+- [Technology and attention](https://veryvisa.github.io/english-hub/t/t-attention.html): B2, 5 articles
+- [AI at work](https://veryvisa.github.io/english-hub/t/t-ai-work.html): B2, 5 articles
+- [Social media and privacy](https://veryvisa.github.io/english-hub/t/t-privacy.html): B2, 5 articles
+- [News and misinformation](https://veryvisa.github.io/english-hub/t/t-misinformation.html): B2, 6 articles
+- [Environment and climate](https://veryvisa.github.io/english-hub/t/t-climate.html): B2, 5 articles
+- [Cities and the cost of housing](https://veryvisa.github.io/english-hub/t/t-cities.html): B2, 5 articles
+- [Travel and its footprint](https://veryvisa.github.io/english-hub/t/t-tourism.html): B2, 5 articles
+- [Crime, scams and staying safe](https://veryvisa.github.io/english-hub/t/t-safety.html): B2, 5 articles
+- [Everyday law and rights](https://veryvisa.github.io/english-hub/t/t-everyday-law.html): B2, 5 articles
+- [Science stories](https://veryvisa.github.io/english-hub/t/t-discoveries.html): B2, 5 articles
+- [How we decide](https://veryvisa.github.io/english-hub/t/t-decisions.html): B2, 6 articles
+- [Learning a language as an adult](https://veryvisa.github.io/english-hub/t/t-language-learning.html): B2, 5 articles
+- [Generations](https://veryvisa.github.io/english-hub/t/t-generations.html): B2, 5 articles
+- [Routines and habits](https://veryvisa.github.io/english-hub/t/t-routines.html): B1, 5 articles
+- [Food and eating out](https://veryvisa.github.io/english-hub/t/t-eating-out.html): B1, 5 articles
+- [Trips and directions](https://veryvisa.github.io/english-hub/t/t-getting-around.html): B1, 5 articles
+- [Family and relationships](https://veryvisa.github.io/english-hub/t/t-family.html): B1, 5 articles
+- [School and learning](https://veryvisa.github.io/english-hub/t/t-learning.html): B1, 5 articles
+- [Weather and seasons](https://veryvisa.github.io/english-hub/t/t-weather.html): B1, 5 articles
+- [Hobbies and free time](https://veryvisa.github.io/english-hub/t/t-free-time.html): B1, 5 articles
+- [Investing and risk](https://veryvisa.github.io/english-hub/t/t-investing-risk.html): C1, 5 articles
+- [Migration and policy](https://veryvisa.github.io/english-hub/t/t-migration.html): C1, 5 articles
+- [The ethics of technology](https://veryvisa.github.io/english-hub/t/t-tech-ethics.html): C1, 5 articles
+- [The future of work](https://veryvisa.github.io/english-hub/t/t-future-work.html): C1, 5 articles
+- [Ageing societies](https://veryvisa.github.io/english-hub/t/t-ageing-society.html): C1, 5 articles
+- [Public health and evidence](https://veryvisa.github.io/english-hub/t/t-evidence.html): C1, 5 articles
+- [Media and persuasion](https://veryvisa.github.io/english-hub/t/t-persuasion.html): C1, 5 articles
+- [How institutions work](https://veryvisa.github.io/english-hub/t/t-institutions.html): C1, 5 articles
+- [History and memory](https://veryvisa.github.io/english-hub/t/t-memory.html): C1, 5 articles
+- [Art and taste](https://veryvisa.github.io/english-hub/t/t-taste.html): C1, 5 articles
+- [Ideas of a good life](https://veryvisa.github.io/english-hub/t/t-happiness.html): C1, 5 articles
+- [Science and uncertainty](https://veryvisa.github.io/english-hub/t/t-uncertainty.html): C1, 5 articles
+- [Negotiation and conflict](https://veryvisa.github.io/english-hub/t/t-negotiation.html): C1, 5 articles
+- [Leadership and organisations](https://veryvisa.github.io/english-hub/t/t-leadership.html): C1, 5 articles
+- [Law and justice](https://veryvisa.github.io/english-hub/t/t-justice.html): C1, 5 articles
+- [Language, thought and culture](https://veryvisa.github.io/english-hub/t/t-language-thought.html): C1, 5 articles
+
+## TED talk lessons
+- [Try something new for 30 days](https://veryvisa.github.io/english-hub/ted/cutts-30-days.html)
+- [Grit: The power of passion and perseverance](https://veryvisa.github.io/english-hub/ted/duckworth-grit.html)
+- [10 ways to have a better conversation](https://veryvisa.github.io/english-hub/ted/headlee-conversation.html)
+- [Less stuff, more happiness](https://veryvisa.github.io/english-hub/ted/hill-less-stuff.html)
+- [How to make stress your friend](https://veryvisa.github.io/english-hub/ted/mcgonigal-stress.html)
+- [The paradox of choice](https://veryvisa.github.io/english-hub/ted/schwartz-choice.html)
+- [The brain-changing benefits of exercise](https://veryvisa.github.io/english-hub/ted/suzuki-exercise.html)
+- [How to speak so that people want to listen](https://veryvisa.github.io/english-hub/ted/treasure-speak.html)
+- [Inside the mind of a master procrastinator](https://veryvisa.github.io/english-hub/ted/urban-procrastination.html)
+- [What makes a good life? Lessons from the longest study on happiness](https://veryvisa.github.io/english-hub/ted/waldinger-good-life.html)
+- [Sleep is your superpower](https://veryvisa.github.io/english-hub/ted/walker-sleep.html)

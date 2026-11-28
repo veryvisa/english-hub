@@ -1,0 +1,22 @@
+/* today.html、week.html、progress.html 与首页时长档（english-hub-daily-progress） */
+.modes{display:flex;gap:6px;align-items:center;flex-wrap:wrap}.mtab{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:.25em .9em;cursor:pointer}.mtab.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+.go-today{display:flex;gap:14px;align-items:center;flex-wrap:wrap}.go-today a.primary{background:var(--acc);color:#fff;border-radius:10px;padding:.45em 1em;text-decoration:none;font-weight:600}
+.loop li.off{opacity:.45}
+.dayflow{list-style:none;padding:0;margin:12px 0}.dstep{background:var(--card);border:1px solid var(--line);border-radius:12px;margin:8px 0;padding:10px 14px}.dstep.cur{border-color:var(--acc)}
+.dstep .dh{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.dstep .dh b{flex:1 1 auto}.dstep .acts{display:flex;gap:6px}
+.dstep .tick{flex:none;width:1.9em;height:1.9em;border-radius:50%;background:var(--chip);display:inline-flex;align-items:center;justify-content:center;font-weight:700}
+.dstep.done .tick{background:var(--ok);color:#fff}.dstep.skipped{opacity:.6}.dstep .db{margin-top:10px}
+.dnext{margin:14px 0 4px}.rcard{border:1px solid var(--line);border-radius:12px;padding:14px;margin:8px 0}.rcard .front{font-size:1.15em;margin:.3em 0}.rcard .grades{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+.dtext .dpara{margin:0 0 .9em}.dtext .dpara p{margin:.2em 0}.dtext .tr{color:var(--mut)}.dtext.hide-tr .tr{display:none}
+.ck.new{background:var(--hl);border-bottom:2px solid var(--acc);border-radius:3px}.ck.seen{border-bottom:1px dashed var(--mut)}
+.legend{display:flex;gap:8px;flex-wrap:wrap;align-items:center;font-size:.92em}
+.core{border-left:4px solid var(--acc);padding:.4em .9em;margin:.6em 0;background:var(--chip);border-radius:0 8px 8px 0}
+.cset{padding-left:1.1em}.cset li{margin:.5em 0}.cset .sig{color:var(--mut);margin-top:.2em}
+.phero b{font-size:1.4em}.bars i{min-height:4px}
+.dist{border-collapse:collapse;margin:.5em 0;font-size:.92em}.dist td,.dist th{border:1px solid var(--line);padding:.25em .6em;text-align:left}.dist tr.ok td{background:var(--chip)}
+.tprog{list-style:none;padding:0}.tprog li{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:4px 0}.tprog li a{flex:1 1 50%}
+.meter{display:inline-block;width:120px;height:8px;background:var(--line);border-radius:4px;overflow:hidden}.meter i{display:block;height:100%;background:var(--ok)}
+.smalls{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}.smalls figure{margin:0}.smalls figcaption{font-size:.9em;color:var(--mut)}
+.spark{width:100%;height:auto}.spark .grid{stroke:var(--line);stroke-width:1}.spark .ax{font-size:9px;fill:var(--mut)}.spark .ln{fill:none;stroke:var(--acc);stroke-width:2}.spark .pt{fill:var(--acc);stroke:var(--card);stroke-width:2}
+.wstrip{list-style:none;padding:0;display:flex;gap:6px;flex-wrap:wrap;margin:10px 0 0}.wstrip li{border:1px solid var(--line);border-radius:8px;padding:.2em .6em;display:flex;flex-direction:column;font-size:.85em;min-width:4.2em}.wstrip li.on{border-color:var(--ok)}.wstrip #w-today{outline:2px solid var(--acc)}
+.wnav{display:flex;gap:14px;align-items:center}

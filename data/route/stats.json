@@ -1,0 +1,68 @@
+{
+ "weeks": 50,
+ "stations": {
+  "s1": {
+   "grammar": [
+    8,
+    9
+   ],
+   "vocab": [
+    6,
+    6
+   ],
+   "pron": [
+    8,
+    8
+   ],
+   "topics": [
+    7,
+    10
+   ],
+   "texts": 35,
+   "hours": 18.6
+  },
+  "s2": {
+   "grammar": [
+    34,
+    40
+   ],
+   "vocab": [
+    32,
+    38
+   ],
+   "pron": [
+    12,
+    12
+   ],
+   "topics": [
+    27,
+    30
+   ],
+   "texts": 142,
+   "hours": 14.5
+  },
+  "s3": {
+   "grammar": [
+    27,
+    32
+   ],
+   "vocab": [
+    14,
+    17
+   ],
+   "pron": [
+    6,
+    6
+   ],
+   "topics": [
+    16,
+    20
+   ],
+   "texts": 84,
+   "hours": 13.9
+  }
+ },
+ "generic_writing": 1,
+ "weeks_with_meanings": 50,
+ "weeks_with_pattern": 36
+}
